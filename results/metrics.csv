@@ -1,0 +1,5 @@
+split,detector,accuracy,precision,recall,f1,fpr
+seen,regex_baseline,1.0,1.0,1.0,1.0,0.0
+seen,distilbert,1.0,1.0,1.0,1.0,0.0
+held_out,regex_baseline,0.1853,0.0,0.0,0.0,0.0
+held_out,distilbert,0.9489,1.0,0.9373,0.9676,0.0

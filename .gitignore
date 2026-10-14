@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+
+# Project artifacts
+# models/ holds the 268MB fine-tuned weights — retrain locally (see CLAUDE.md)
+models/
+# runtime SQLite proxy log
+logs/
+.cache/
+# results/ IS committed so the chart renders in the README (regenerable via evaluate.py)
+
+# OS / editor
+.DS_Store
+Thumbs.db

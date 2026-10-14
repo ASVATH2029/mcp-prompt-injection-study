@@ -1,0 +1,7 @@
+# Normalize line endings across Windows/macOS/Linux checkouts.
+* text=auto eol=lf
+
+# Binary assets
+*.png binary
+*.safetensors binary
+*.jsonl text eol=lf
